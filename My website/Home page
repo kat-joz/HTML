@@ -23,6 +23,7 @@
     </div>
     </header>
     <main>
+        <link rel="stylesheet" type="text/css" href="CSS style.css">
         <section>
         <h3>Heading for paragraph 1</h3>
         <p>Paragraph 1</p>

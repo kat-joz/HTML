@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(235, 187, 211);
+    color: rgb(88, 0, 88);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: rgb(136, 104, 167);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
