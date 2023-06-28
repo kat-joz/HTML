@@ -3,8 +3,8 @@
     <head>
         <style>
             .myDiv {
-                border: 5px outset darkgreen;
-                background-color: darkseagreen;
+                border: 5px outset mediumslateblue;
+                background-color: rgb(223, 125, 210);
                 text-align: center;
             }
             </style>
@@ -12,17 +12,34 @@
             
             <header>
              <div class="myDiv">
+                <br>
         <a href="/">
-        <img src="https://bugart.co.uk/wp-content/uploads/H032-Books-Kitty-416x584.jpg" alt="Pic of a cat and books">
-        </a>
-        <h1 style="color: darkslategray; font-family: Verdana, Geneva, Tahoma, sans-serif;">Nationwide's Proud Book Club</h1>
-        <h2 style="color: rgb(38, 94, 62); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">The list of the books we've read so far.</h2>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/pride-books-illo-lede-v1-1654877115.png" alt="Pic of a cat and books" 
+        width="950" 
+        height="500">    
+    </a>
+        <h1 style="color:blanchedalmond; font-family: Verdana, Geneva, Tahoma, sans-serif;">Nationwide's Proud Book Club</h1>
+        <h2 style="color:antiquewhite; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">The list of the books we've read so far.</h2>
     </div>
     </header>
-<h3>Heading for paragraph 1</h3>
-<p>Paragraph 1</p>
-<h3>Heading for paragraph 2</h3>
-<p>Paragraph 2</p>
-<h3>Heading for paragraph 3</h3>
-<p>Paragraph 3</p>
+    <main>
+        <section>
+        <h3>Heading for paragraph 1</h3>
+        <p>Paragraph 1</p>
+        </section>
+        <section>
+        <h3>Heading for paragraph 2</h3>
+        <p>Paragraph 2</p>
+        </section>
+        <section>
+        <h3>Heading for paragraph 3</h3>
+        <p>Paragraph 3</p>
+        </section>
+    </main>
+<footer>
+    <p>Created by: KJ <br>
+    Contact:
+<a href="mailto:KJ@examplemail.com">KJ@examplemail.com</a>
+</p>
+</footer>
 </html>
