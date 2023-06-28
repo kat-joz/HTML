@@ -1,0 +1,14 @@
+<DOCTYPE! html>
+    <html lang="en">
+        <head>
+            <style>
+                .myDiv{background-color:red;}
+                </style>
+                </head>
+                <body>
+                    <div class="myDiv">
+                        <p>This is a text in a paragraph</p>
+                    </div>
+                </body>
+            </hmtl>
+            

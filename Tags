@@ -7,4 +7,10 @@
     <p>This is additional paragraph text and this is <b>bold text</b></p>
      <h1 id="myHeading"></h1>
      <img src="download.jfif" alt="dog picture">
+     <body>
+        <p>This</p>
+        <p>is</p>
+        <p>a</p>
+        <p>paragraph.</p>
+     </body>
 </html>
