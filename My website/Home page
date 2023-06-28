@@ -29,10 +29,19 @@
         <section>
             <h4>List of the books in chronological order:</h4>
             <ol>
-                <li>Rainbow Milks</li>
+                <li>Rainbow Milk</li>
                 <li>Before We Were Trans</li>
-                <li>Wulder Girls</li>
+                <li>Wilder Girls</li>
             </ol>
+            <h4>List of the books including the sessions' dates:</h4>
+            <dl>
+                <dt>Rainbow Milk</dt>
+                <dd>> February 2023</dd>
+                <dt>Before We Were Trans</dt>
+                <dd>> April 2023</dd>
+                <dt>Wilder Girls</dt>
+                <dd>>June 2023</dd>
+            </dl>
         </section>
         </section>
         <link rel="stylesheet" type="text/css" href="CSS style.css">
