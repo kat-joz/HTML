@@ -15,8 +15,14 @@
         <a href="/">
         <img src="https://bugart.co.uk/wp-content/uploads/H032-Books-Kitty-416x584.jpg" alt="Pic of a cat and books">
         </a>
-        <h1 style="color: darkslategray; font-family: Verdana;">Nationwide's Proud Book Club</h1>
-        <h2 style="color: rgb(38, 94, 62);">The list of the books we've read so far.</h2>
+        <h1 style="color: darkslategray; font-family: Verdana, Geneva, Tahoma, sans-serif;">Nationwide's Proud Book Club</h1>
+        <h2 style="color: rgb(38, 94, 62); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">The list of the books we've read so far.</h2>
     </div>
     </header>
+<h3>Heading for paragraph 1</h3>
+<p>Paragraph 1</p>
+<h3>Heading for paragraph 2</h3>
+<p>Paragraph 2</p>
+<h3>Heading for paragraph 3</h3>
+<p>Paragraph 3</p>
 </html>
