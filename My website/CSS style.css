@@ -15,3 +15,6 @@ footer{
     color: rgba(44, 39, 39, 0.918);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.imageplacement{
+    text-align: center;
+}

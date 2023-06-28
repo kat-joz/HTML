@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="books" content="HTML, CSS, JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             .myDiv {
                 border: 5px outset mediumslateblue;
@@ -25,7 +28,13 @@
     <main>
         <link rel="stylesheet" type="text/css" href="CSS style.css">
         <section>
-        <h3>Rainbow Milk</h3>
+        <h3>Rainbow Milk</h3>     
+        <div class="imageplacement"><a href="/">
+            <img src="https://cdn.waterstones.com/bookjackets/large/9780/3497/9780349700588.jpg"
+            with="150"
+            height="200">
+        </a>
+    </div>
         <p>Rainbow Milk is a semi-autobiographical novel written by Paul Mendez and first published by a Little, Brown and Company imprint in 2020. Mendez' debut novel tells the story of Jesse McCarthy, a Black gay man who flees his home after being outed by members of his community.</p>
         </section>
         <section>
