@@ -25,16 +25,16 @@
     <main>
         <link rel="stylesheet" type="text/css" href="CSS style.css">
         <section>
-        <h3>Heading for paragraph 1</h3>
-        <p>Paragraph 1</p>
+        <h3>Rainbow Milk</h3>
+        <p>Rainbow Milk is a semi-autobiographical novel written by Paul Mendez and first published by a Little, Brown and Company imprint in 2020. Mendez' debut novel tells the story of Jesse McCarthy, a Black gay man who flees his home after being outed by members of his community.</p>
         </section>
         <section>
-        <h3>Heading for paragraph 2</h3>
-        <p>Paragraph 2</p>
+        <h3>Before We Were Trans</h3>
+        <p>A groundbreaking global history of gender nonconformity. Today's narratives about trans people tend to feature individuals with stable gender identities that fit neatly into the categories of male or female. Those stories, while important, fail to account for the complex realities of many trans people's lives.</p>
         </section>
         <section>
-        <h3>Heading for paragraph 3</h3>
-        <p>Paragraph 3</p>
+        <h3>Wilder Girls</h3>
+        <p>The Power meets We Were Liars in this compelling story of survival and the power of female friendships, perfect for fans of A Good Girl's Guide to Murder.</p>
         </section>
     </main>
 <footer>
