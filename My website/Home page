@@ -26,10 +26,19 @@
     </div>
     </header>
     <main>
+        <section>
+            <h4>List of the books in chronological order:</h4>
+            <ol>
+                <li>Rainbow Milks</li>
+                <li>Before We Were Trans</li>
+                <li>Wulder Girls</li>
+            </ol>
+        </section>
+        </section>
         <link rel="stylesheet" type="text/css" href="CSS style.css">
         <section>
         <h3>Rainbow Milk</h3>     
-        <div class="imageplacement"><a href="/">
+        <div class="imagePlacement"><a href="/">
             <img src="https://cdn.waterstones.com/bookjackets/large/9780/3497/9780349700588.jpg"
             with="150"
             height="200">
@@ -39,10 +48,22 @@
         </section>
         <section>
         <h3>Before We Were Trans</h3>
+        <div class="imagePlacement"><a href="/">
+            <img src="https://m.media-amazon.com/images/I/51SHvcWAUmL._AC_UF894,1000_QL80_.jpg"
+            width="150"
+            height="200">
+        </a>
+        </div>
         <p>A groundbreaking global history of gender nonconformity. Today's narratives about trans people tend to feature individuals with stable gender identities that fit neatly into the categories of male or female. Those stories, while important, fail to account for the complex realities of many trans people's lives.</p>
         </section>
         <section>
         <h3>Wilder Girls</h3>
+        <div class="imagePlacement"><a href="/">
+            <img src="https://m.media-amazon.com/images/I/81v9rodXOUL._AC_UF894,1000_QL80_.jpg"
+            width="150"
+            height="200">
+        </a>
+        </div>
         <p>The Power meets We Were Liars in this compelling story of survival and the power of female friendships, perfect for fans of A Good Girl's Guide to Murder.</p>
         </section>
     </main>
