@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .myDiv {
+                border: 5px outset darkgreen;
+                background-color: darkseagreen;
+                text-align: center;
+            }
+            </style>
+            </head>
+            
+            <header>
+             <div class="myDiv">
+        <a href="/">
+        <img src="https://bugart.co.uk/wp-content/uploads/H032-Books-Kitty-416x584.jpg" alt="Pic of a cat and books">
+        </a>
+        <h1 style="color: darkslategray; font-family: Verdana;">Nationwide's Proud Book Club</h1>
+        <h2 style="color: rgb(38, 94, 62);">The list of the books we've read so far.</h2>
+    </div>
+    </header>
+</html>
