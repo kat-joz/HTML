@@ -1,0 +1,9 @@
+<!DOCTYPE hmtl>
+<html>
+    <h1>This is a large heading</h1>
+    <h6>This is a small heading</h6>
+    <p>This is a paragraph</p>
+    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg.webp" alt ="Pug image" >
+    <p>This is additional paragraph text and this is <b>bold text</b></p>
+     
+</html>
