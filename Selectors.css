@@ -1,0 +1,15 @@
+em{
+    color: blue;
+}
+p em{
+    color: red;
+}
+body > header{
+    color: limegreen;
+}
+h1 + p{
+    color: purple;
+}
+h1 ~ p{
+    background-color: gray;
+}
