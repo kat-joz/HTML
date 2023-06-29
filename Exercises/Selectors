@@ -1,10 +1,10 @@
 <!Doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="Selectors.css">
     <title>L3_CSS_Combinators _Demo</title>
 </head>
 <body>
-    <link rel="stylesheet" type="text/css" href="Selectors.css">
         <h1 id="heading" class="font"> A <em>heading</em></h1>
         <p class="font">A paragraph <em>with emphasis</em></p>
     <header>

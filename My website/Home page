@@ -43,7 +43,7 @@
             </dl>
         </section>
         </section>
-        <link rel="stylesheet" type="text/css" href="CSS style.css">
+        <link rel="stylesheet" href="CSS style.css">
         <section>
         <h3>Rainbow Milk</h3>     
         <div class="imagePlacement"><a href="/">
