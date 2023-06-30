@@ -1,1 +1,18 @@
-console.log("Hello World 1")
+let x = "Hello World"
+console.log(x)
+console.log(x+1)
+console.log(x + "text")
+// let [veriableName] = [Data]
+// Name can be anything without space
+// Can't start with special character or number 
+let string = "text"
+let number = 9
+let number2 = 0.54
+let array = [1,2,3,4,5,6] 
+console.log(array)
+// lists can also be called an array 
+
+let object = {name:"andrew"}
+let carObject={model:"Panda", brand:"Fiat", year:2002, driver:object, list:array}
+
+console.log(carObject)
