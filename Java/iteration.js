@@ -37,15 +37,24 @@ let animal3 = {name: "dog", size: "medium", breed: "bulldog", age: "5"}
 
 console.log(animal1, animal2, animal3)
 
-let animals = [
-    {name: "dog", size: "small", breed: "pomerenian", age: "2"},
-    {name: "dog", size: "large", breed: "labrador", age: "3"},
-    {name: "dog", size: "medium", breed: "bulldog", age: "5"}
-]
+let animals = new Array ()
+animals.push(animal1)
+animals.push(animal2)
+animals.push(animal3)
 console.log(animals) 
 
- for(let name in animals){
-         for(let key in animals[name]){
-                        console.log(`${key}: ${animals[name][key]}
-         }
-        }
+for (let pet of animals) {
+    console.log(pet.name)
+}
+
+for (let i=0 ; i <animals.length; i++){
+    animals[i].age*=2
+}
+
+let i = 0;
+while (i < animals.length){
+    let currentPet = animals [i];
+
+    console.log(`Name:${currentPet.name} Size: ${currentPet.size} Age:${currentPet.age}`);
+    i++;
+}
