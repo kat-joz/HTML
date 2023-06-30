@@ -2,7 +2,11 @@ let x = "Hello World"
 console.log(x)
 console.log(x+1)
 console.log(x + "text")
-// let [veriableName] = [Data]
+// Variables in Java:string(text),numbers(inc.float and decimal),arrays,objects
+// let [veriableName] = [Data] - data is changeable
+// .methodname() - method 
+// {} - object
+// [] - array
 // Name can be anything without space
 // Can't start with special character or number 
 let string = "text"
