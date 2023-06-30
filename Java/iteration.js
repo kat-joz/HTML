@@ -22,3 +22,30 @@ for (let c = 1; c <= 10; c++){
     console.log(c)}
 }
 //this one is an embeded loop 
+
+//condition, question mark, yes or no - if statement to be written quickly (better to use if/else etc.)
+// CHECK TTHIS ONE: console.log(age > 18)? ((age < 65)? `${age} is valid`: "Overage")
+
+let animal1 = new Object 
+animal1 ["name"] = "dog"
+animal1 ["size"] = "small"
+animal1 ["breed"] = "pomerenian"
+animal1 ["age"] = "2"
+
+let animal2 = {name: "dog", size: "large", breed: "labrador", age: "3"}
+let animal3 = {name: "dog", size: "medium", breed: "bulldog", age: "5"}
+
+console.log(animal1, animal2, animal3)
+
+let animals = [
+    {name: "dog", size: "small", breed: "pomerenian", age: "2"},
+    {name: "dog", size: "large", breed: "labrador", age: "3"},
+    {name: "dog", size: "medium", breed: "bulldog", age: "5"}
+]
+console.log(animals) 
+
+ for(let name in animals){
+         for(let key in animals[name]){
+                        console.log(`${key}: ${animals[name][key]}
+         }
+        }
