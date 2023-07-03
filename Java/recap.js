@@ -375,8 +375,8 @@ let age = 40
 if (age <= 18){
     console.log("underage");
 }
-else if (age > 18 && age <= 65){
-    console.log("happy");
+else if (age >= 65){
+    console.log("overage");
 }
 else{
-    console.log("overage")}
+    console.log("happy")}
