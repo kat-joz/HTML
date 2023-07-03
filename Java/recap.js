@@ -75,10 +75,7 @@ sentence[7]=sentence[3]
 sentence[3]=temporary
 console.log(sentence)
 
-//revert array's items
-sentence.reverse([1][2])
-console.log(sentence)
-
+//reverse array's items
 console.log(sentence.reverse())
 
 //remove first element of an array
@@ -92,3 +89,131 @@ console.log(sentence)
 //add a value or a string inside of an exisiting array
 console.log(sentence.join(sentence))
 console.log(sentence.join("-"))
+
+//Arrays and objects can be const. and they can be updated as const wile in array -> const[Name of the Array] = [array]
+const NameOfTheArray = []
+
+//Objects
+
+const myObject = {}
+const myObject_advanced = new Object()
+
+console.log(myObject)
+console.log(myObject_advanced)
+
+myObject.key = "value"
+console.log(myObject) // {key = 'value'}
+
+console.log(myObject.key) // value
+myObject.key = 12
+console.log(myObject.key) // 12
+
+const kasiaObject = {name:"Kasia", Surname:"Jozwiak"}
+console.log(kasiaObject) // prints all above
+console.log(kasiaObject [0]) //undefined as no index is assigned to each value = key assigned was not used -> "name" is the key in this instance
+console.log(kasiaObject ["name"]) // prints Kasia, as I used the key assigned to value Kasia
+
+kasiaObject[0] = "first item"
+console.log(kasiaObject[0]) // now it will print 'first item' as a new key was assigned to a value 0
+console.log(kasiaObject) // now it will print: first item, kasia, jozwiak
+
+const Example = JSON.parse('{"name":"kasia"}')
+console.log(Example) //{name:'Kasia'}
+console.log(Example.name) // Kasia
+
+console.log(JSON.stringify(Example)) // {"name:kasia"}
+
+// [array]
+// {object}
+// (method)
+
+//For Object remember:
+let NewObject = {}
+//OR
+const NewObject1 = {}
+
+NewObject.keyExample = "value" // NewObject is the name of the object, while keyExample is the name of the key by which I classify it
+console.log(NewObject ["keyExample"]) 
+
+//You can add more data in the value and organise them together:
+const classObject2 = {student:["AB", "CD"], teacher: "Name", cost:123}
+const classObject3 = {student:["EF", "GH"], techaer: "Name2", cost:234}
+const classAll =[classObject2, classObject3]
+console.log(classAll)
+
+/// Task
+
+// Make an array of 4 cars - name, model, brand, reg
+
+// print the a property of each object
+
+// change the properties
+
+// add a property
+
+// print the whole objects
+
+// print specific keys
+
+const car1 = {make:"Toyota", model: "Aygo", year: 2016}
+const car2 = {make:"Ford", model: "Fiesta", year: 2009}
+const car3 = {make:"Fiat", model: "Panda", year: 2012}
+const car4 = {make:"Renault", model: "Clio", year: 2015}
+
+const cars= [car1, car2, car3, car4]
+console.log(cars)
+
+//or 
+// const cars = [car1] 
+// cars.push(car2)
+// etc.
+
+car1.make = "Mercedes"
+car2.model = "Zet"
+car3.year = 2010
+
+console.log(cars[0].make) // prints the car1 make
+console.log(cars[1].make)
+console.log(cars[2].make)
+console.log(cars[3].make)
+
+
+car1.reg = "ABCD"
+console.log(car1) // array added another proprty of the reg number
+
+car2.reg = "EFGH"
+car3.reg = "IJKL"
+car4.reg = "MNOP"
+//or
+cars[0].reg = "ABCD"
+
+console.log(cars[0]["reg"])
+console.log(cars[3].year)
+console.log(cars[0].model) //this will come up with Aygo (the index in an Array is numbered, so it works)
+console.log(car1.model) //and this will come up with Aygo (the index in Object is specified by model etc., so numbers won't work)
+
+console.log(car1.model, car2.model) // returns models of car1 and car2
+
+//Pass-By-Referece
+let list11 = ["jozwiak"]
+let list12 = list11
+
+//Pass-By-Value
+let surname = "jozwiak"
+let surname10 = surname
+
+// at this point, both PBR and PBV will print the same thing - jozwiak
+
+list11.push("add")
+list12.push ("word")
+
+console.log(list11) // jozwiak add word
+console.log(list12) // jozwiak add word
+
+//Whilst PBV
+
+surname = "add"
+surname10 = "word"
+
+console.log(surname) // add
+console.log(surname10) // word
