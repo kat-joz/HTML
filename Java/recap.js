@@ -68,5 +68,27 @@ sentence[2]="red"
 sentence[3]="cat"
 console.log(sentence)
 
+//OR to swap existing words around
+
+let temporary = sentence[7]
+sentence[7]=sentence[3]
+sentence[3]=temporary
+console.log(sentence)
+
+//revert array's items
 sentence.reverse([1][2])
 console.log(sentence)
+
+console.log(sentence.reverse())
+
+//remove first element of an array
+sentence.shift()
+console.log(sentence)
+
+//add a new element at the beginning of an array
+sentence.unshift("new word")
+console.log(sentence)
+
+//add a value or a string inside of an exisiting array
+console.log(sentence.join(sentence))
+console.log(sentence.join("-"))
