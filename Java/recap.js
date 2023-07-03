@@ -362,3 +362,21 @@ else {
 }
 }
 
+// ! means not, so !false means true or != does not equal
+
+///TASK
+//Create a IF statement that satisfies the following:
+//Declare a variable age
+//if age is less than 18, print underage
+//if age is over 18 AND under 65 print happy
+//if age  is over 65 print overage
+
+let age = 40
+if (age <= 18){
+    console.log("underage");
+}
+else if (age > 18 && age <= 65){
+    console.log("happy");
+}
+else{
+    console.log("overage")}
