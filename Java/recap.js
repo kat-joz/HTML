@@ -305,6 +305,7 @@ while (x < 10){
             y++;
         }
     }
+
 // Change with for loop
 
 for (let number2 = 1; number2 <= 10; number2++){
@@ -334,3 +335,30 @@ const objectLoop = {a:1, b:2, c:3}
 for (const element in objectLoop){
     console.log(`${element}: ${objectLoop[element]}`)
 }
+
+// 7%3 - 7 modular of 3 is 1, as 3 goes into 7 twice and = 6, meaning there's 1 left
+// FIZZ BUZZ
+//if the number is a multiple of:
+// 3 - Fizz
+// 5 - Buzz
+// 15 - FizzBuzz
+
+for (let i=0; i<1000; i++){
+    console.log(i)
+
+let output = ""
+if (i % 3 == 0){
+    output += "Fizz"
+}
+
+if (i % 5 == 0){
+    output += "Buzz"
+}
+if (output == ""){
+    console.log(i)
+}
+else {
+    console.log(output)
+}
+}
+
