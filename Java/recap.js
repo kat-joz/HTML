@@ -204,16 +204,133 @@ let surname10 = surname
 
 // at this point, both PBR and PBV will print the same thing - jozwiak
 
+//PBR changes:
 list11.push("add")
 list12.push ("word")
 
 console.log(list11) // jozwiak add word
 console.log(list12) // jozwiak add word
 
-//Whilst PBV
+//Whilst PBV changes:
 
 surname = "add"
 surname10 = "word"
 
 console.log(surname) // add
 console.log(surname10) // word
+
+// WHILE - have to create new variables, as the counter will be resused (only prints the last loop using counter) 
+
+let counter = 0
+while (counter > 10){
+    console.log(counter)
+    counter +=1;
+}
+//Counter starts at 0, if it's less than 10, it will add 1 and print again through the consol.log function until it reaches 10
+
+while (false){
+    console.log("never print") //this will never print as while won't be false; true will cause an infinite loop, as while is always true (unles there's other conditions)   
+}
+
+do{
+    console.log("once") // prints just once
+}while (false)
+
+
+counter=0
+do{
+    console.log(counter)
+    counter +=1
+}while (counter < 10) // same as the while loop above but wil print just once, and while will only activate after 'do' loops is done with printing
+
+// FOR - "index" is not resused, so all will be printed
+
+for (let index = 0; index <10; index++){
+console.log(index)
+}
+//index++ = index+1
+
+for (let index = 10; index > 0; index--){
+    console.log(index)
+}
+//index-- = -1
+//or this can be done as:
+index=10
+while(index > 0){
+    console.log(index)
+    index--
+}
+
+//THEREFORE, WHILE is a longer version, FOR is a modern and quicker version
+
+for (let index = 0; index <10; index ++){
+    console.log(index*2)
+} //prints the loop to 10 times 2
+
+// list in a loop
+let list123 = [1,2,3,5]
+console.log(list123) // prints the list of 1234
+
+for (let number of list123){
+    number*=2
+    console.log(number)
+}
+//each number from the list will be counted as times 2
+
+// while
+// for (let var = start; condition; intcrement)
+// for of  - cycles through a list
+// for in  - cycles through a list's index
+
+
+/// Task
+
+// While Loops Count to 1000
+
+let number = 0
+while (number <= 1000){
+    console.log(number)
+    number +=1;
+}
+
+// While loop inside a different while loop to print 1-10 10 times for each number
+
+let x = 0
+while (x < 10){
+    x++;
+
+    let y = 1
+        while (y <= 10){
+            console.log(x)
+            y++;
+        }
+    }
+// Change with for loop
+
+for (let number2 = 1; number2 <= 10; number2++){
+    for (let number3 = 0; number3 < 10; number3++){
+    console.log(number2)}
+}
+
+// try for of and for in on a list
+
+// for (variable of iterable) 
+// statement
+
+const listLoop = [1,2,3,4]
+for (const element of listLoop){
+    console.log(element);
+}
+
+for (let value of listLoop){
+    value += 1;
+    console.log(value)
+}
+
+// for (variable in object)
+// statement
+
+const objectLoop = {a:1, b:2, c:3}
+for (const element in objectLoop){
+    console.log(`${element}: ${objectLoop[element]}`)
+}
