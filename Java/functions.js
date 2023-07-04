@@ -103,22 +103,55 @@ console.log(example5)
 // calc(3,4,"div") // 0.75
 // Try them out
 
+//Function with 3 variables
 function print_car(make, model, year) {
     console.log(`The car is ${make} ${model} ${year}`)
 }
 print_car ("toyta", "aygo", "2015")
 
-
+//String with numbers and use of maths function operation
 let array3 = [2,3,4]
 array3 = array3.map(divide)
 console.log(array3)
 
-//Calculator
-
+//Calculator using maths fucntions
 function calculator(sum){
     console.log(`The sum is ${sum}`)
 }
 calculator(divide(10,2))
 calculator(multiply(2,2))
 calculator(subtraction(10,2))
-calculator(addition(1,1))
+calculator(addition(1,1)) 
+
+//Andrew's solution
+
+function calculator2(numberOne, numberTwo, operation){
+    if(operation == "+"){
+        return add(numberOne, numberTwo)
+        //return numberOne + numberTwo
+    }
+}
+console.log(calculator2(1,2,"+"))
+
+//OR use switch with a predictable outcome (saves space)
+
+function calculator2(numberOne, numberTwo, operation){
+
+    switch (operation) {
+        case "Addition":
+        case "+":
+            return add (numberOne, numberTwo)
+            break;
+
+        case "Subtraction":
+            case "-":
+            return sub (numberOne, numberTwo)
+            break;
+
+        default:
+            return "invalid operation"
+    }
+    console.log(`${numberOne} ${operation} ${numberTwo} equals ${output}`)
+}
+
+calculator2(1,2,"-")
