@@ -219,6 +219,21 @@ console.log(double1(4))
 console.log (" ")
 list.map (double1).forEach(x => console.log(x))
 
+//
+
+function calc (a,b,ops){
+    console.log(ops(a,b)) // shows 30, based on calculation done in 228
+}
+const multiplier = (x,y) => x*y
+calc(5,6,multiplier) 
+calc(10,10, (x,y) =>Math.log(x,y)) // math provides math functions, you chose which one after "." such as "log" in this example
+calc(10,10, (a,b) => a ** b) //a*b squared
+
+//function called "calc" got "a" replaced with 5 and "b" replaced with 6
+//function called "multiplier" performs multiplication of two numbers, in this case 5 and 6
+//calc() = calls the function, adds the numbers and performs the function called "multiplier"
+
+
 //ADD HERE
 
 ///TASK
@@ -261,3 +276,27 @@ function calculator3 (a,b,operation){
 const addNumbers = (a,b) => a+b
 calculator3(2,2,addNumbers) //simply adds numbers, as per addNumbers function above
 calculator3(2,3, (a,b) => a*b) //takes in the anonymous function and multiplies instead
+
+//another calculator for practice
+
+function calculator4 (x,y,calculation){
+    console.log(calculation(x,y))
+}
+calculator4(5,2, (x,y) => x/y)
+
+let divider = (x,y) => x/y
+calculator4(5,2,divider)
+
+let addition2 = (x,y) => x+y
+calculator4(10,10,addition2)
+
+//another array for practice
+
+let Array3 = [1,2,3,4,5,6,7,8,9]
+Array3.map(x => x*2).forEach(x =>console.log(x)) 
+
+let Array4 = [2,4,5,8,10]
+Array4.map(x => x+1).forEach(x=>console.log(x))
+
+let Array5 = [1,12,123,1234]
+Array5.map(x => x%2 == 0).forEach(x =>console.log(x))
