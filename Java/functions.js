@@ -155,3 +155,109 @@ function calculator2(numberOne, numberTwo, operation){
 }
 
 calculator2(1,2,"-")
+
+// => arrowed function = no scope, there is no context, this is only the code that we're interested in meaning we won't only to recall the "helloWorldArrowed" function outside of these brackets
+
+const helloWorldArrowed = () => {
+    console.log("New Hello World")
+}
+
+//vs in scope
+
+const helloWorldNormal = function helloWorldNormal () {
+    console.log("Hello World")
+}
+helloWorldNormal() //this prints, even though outside of brackets
+
+//MAP - map() method creates a new array populated with the results of calling a provided function on every element in the calling array
+let list = [1,2,3,4]
+console.log( list.map (x => x*2)) //the arrow here means that x needs to be found before the multiply happens, thelling the compiler that x*2 is now a function; this prevents it from doing the calculation first
+
+console.log(list) 
+
+//Power
+
+const power = (number, power) => {
+    output = number
+    for (let x=1; x < power; x++){
+        output*=number
+    }
+    return output
+}
+
+console.log(power (2,3)) //8
+
+//Use of an arrow function = List of numbers and print only even numbers
+
+console.log(" ")
+list = [1,2,3,4,5,6,7,8]
+list.forEach(x => console.log(x))
+
+console.log(" ")
+list.filter(x => x%2 == 0).forEach(x => console.log(x))
+
+console.log (" ") //just a visual break in console
+list.map (x => x/3).forEach(x=>console.log(x))
+
+console.log(" ")
+list.sort( (a,b) => a-b).forEach(x => console.log(x))
+
+console.log(" ")
+list.sort((a,b) => b-a).forEach(x => console.log(x))
+
+//
+
+const multiplier_creator = (number) => {
+    return (value) => value * number
+}
+
+let double1 = multiplier_creator(10) // (value) => value * 10
+
+console.log (" ")
+console.log(double1(4))
+
+console.log (" ")
+list.map (double1).forEach(x => console.log(x))
+
+//ADD HERE
+
+///TASK
+// Arrowed function that says hello to an inputed name
+
+//Arrowed
+const print1 = (something) => {
+    console.log(`Hello ${something}`)
+}
+print1("Kasia") //Hello Kasia
+
+//In Scope
+function print_name(name) {
+    console.log(`Hello, ${name}`)
+}
+print_name("Kasia") // Hello, Kasia
+
+// Make an array. try .forEach on the array passing in an annoymous function
+
+let listForArray = [1,2,3,4,5,6]
+listForArray.forEach(a => console.log(a)) // each number has a line
+console.log(listForArray) // printed in a row as a whole list
+
+listForArray.map( a => a/2).forEach(a =>console.log(a)) //each number as a list divided by 2
+
+const multiCalculator = (number) => {
+    return (valueDouble) => valueDouble * number
+}
+
+let double = multiCalculator(10)
+console.log(double(2))
+
+
+// calculator as the operator is an anoynmous function
+
+function calculator3 (a,b,operation){
+    console.log(operation(a,b))
+}
+
+const addNumbers = (a,b) => a+b
+calculator3(2,2,addNumbers) //simply adds numbers, as per addNumbers function above
+calculator3(2,3, (a,b) => a*b) //takes in the anonymous function and multiplies instead

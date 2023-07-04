@@ -61,7 +61,8 @@ while (counter <= 1000){{
 }
 
 //Andrew's solution
-//continue and break
+//continue skips to the next interation
+
 let g = 100
 let h = 500
 let j = 1000
